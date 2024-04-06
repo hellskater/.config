@@ -86,6 +86,7 @@ function M.config()
     "emmet_language_server",
     "gopls",
     "tailwindcss",
+    "marksman"
   }
 
   local default_diagnostic_config = {

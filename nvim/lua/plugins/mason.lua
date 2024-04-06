@@ -20,6 +20,7 @@ function M.config()
     "emmet_language_server",
     "gopls",
     "tailwindcss",
+    "marksman"
   }
 
   local tools = {
@@ -31,6 +32,7 @@ function M.config()
     "eslint",
     "mypy",
     "eslint_d",
+    "ruff"
   }
 
   require("mason").setup {
